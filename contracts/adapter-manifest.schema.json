@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rcpansiedad.org/schemas/adapter-manifest.schema.json",
+  "title": "RCP runtime adapter manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["runtime", "adapter_version", "local_only", "languages", "text_complete", "voice", "installation"],
+  "properties": {
+    "runtime": {"enum": ["claude", "codex", "hermes", "antigravity"]},
+    "adapter_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "local_only": {"const": true},
+    "languages": {"type": "array", "contains": {"const": "en"}, "minContains": 1, "items": {"enum": ["en", "es"]}},
+    "text_complete": {"const": true},
+    "voice": {"enum": ["optional_native_only", "not_available"]},
+    "installation": {"type": "string", "minLength": 1}
+  }
+}
