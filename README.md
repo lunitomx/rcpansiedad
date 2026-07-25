@@ -1,14 +1,18 @@
 # RCP de la Ansiedad
 
-> A bilingual, privacy-first open-source project for a future installable RCP reflection skill across Claude, Codex, Hermes and Antigravity/Gemini.
+> A bilingual, privacy-first open-source project with a portable RCP reflection Skill for Claude, Codex, Hermes and Antigravity/Gemini.
 
-## Status: public development scaffold
+## Status: `0.1.0-alpha` controlled testing
 
-This repository is public so the project can be inspected and built in the open. It is **not yet a public clinical release and does not contain an installable Skill**. Do not use this repository as a substitute for professional or emergency care.
+This repository contains the first installable alpha Skill for controlled testing. It is **not a clinical release, crisis service or substitute for professional or emergency care**. Use synthetic scenarios during review and never publish personal RCP entries.
 
-The first release will only ship after the canonical RCP source, rights, clinical claims, safety language, English/Spanish parity, attribution and runtime tests are explicitly reviewed.
+The method source, digital adaptation, initial safety boundary and attribution were confirmed by Fer as reported in the private lab. Technical gates, four-runtime verification and public feedback remain open before a stable release.
 
-## What this project is building
+## Install for a controlled test
+
+See [installation.md](docs/installation.md) and use the Skill folder at [`skills/rcpansiedad/`](skills/rcpansiedad/). Fer's synthetic test plan is in [fer-test.md](docs/fer-test.md).
+
+## What this project provides
 
 RCP means *Reconstrucción Cognitiva del Pensamiento*. The future tool will guide a consenting adult through a structured writing exercise:
 
@@ -18,7 +22,7 @@ RCP means *Reconstrucción Cognitiva del Pensamiento*. The future tool will guid
 4. a user-authored reconstruction; and
 5. reading and reassessment.
 
-It will not diagnose, interpret a person's mind, prescribe medication, replace therapy, manage an emergency or speak as a psychologist.
+It does not diagnose, interpret a person's mind, prescribe medication, replace therapy, manage an emergency or speak as a psychologist.
 
 ## Privacy promise
 
@@ -35,12 +39,14 @@ Text is mandatory. Voice may be supported only when a runtime provides a verifie
 
 ## Repository separation
 
-- Public: [rcpansiedad](https://github.com/lunitomx/rcpansiedad) — sanitized code, contracts, public documentation and approved release artifacts only.
+- Public: [rcpansiedad](https://github.com/lunitomx/rcpansiedad) — sanitized code, contracts, public documentation and alpha release artifacts only.
 - Private: [rcpansiedad-lab](https://github.com/lunitomx/rcpansiedad-lab) — source manuals, videos, hashes, claims review, rights and clinical decisions.
 
 ## Spanish
 
-Este repositorio público es un armazón de desarrollo bilingüe, no una versión clínica instalable. RCP es una herramienta de auto-reflexión educativa; no sustituye a un psicólogo ni atiende emergencias. El proyecto agradece a J. Fernando Villanueva Luna por crear la metodología y a Eduardo Luna por impulsar su desarrollo tecnológico y divulgación.
+Este repositorio público contiene una primera Skill bilingüe para pruebas controladas; no es una versión clínica ni atiende emergencias. RCP es una herramienta de auto-reflexión educativa y no sustituye a un psicólogo, médico o servicio de emergencia. Agradecemos a J. Fernando Villanueva Luna por crear la metodología y a Eduardo Luna por impulsar su desarrollo tecnológico y divulgación.
+
+La metodología y recursos oficiales de Fer pueden conocerse en [su sitio](https://psicologoqueretaro.com/) y en [la playlist de YouTube](https://www.youtube.com/playlist?list=PLbGKfvX_T7EPDV-bcI--z42VSz4Xxdyor).
 
 ## Contributing
 

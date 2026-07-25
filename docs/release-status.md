@@ -1,17 +1,18 @@
 # Release status
 
-Current version: `0.0.1-development-scaffold`
+Current version: `0.1.0-alpha`
 
-This is an auditable foundation, not an installable public Skill. The public repository intentionally contains no raw manuals, videos, private review notes or clinical corpus.
+This is an installable alpha for controlled testing, not a clinical release. The public repository contains no raw manuals, videos, private review notes or personal RCP corpus.
 
-## Release blockers
+## Stable-release gates
 
-- canonical written source is not confirmed;
-- rights for redistribution and translation are not recorded;
-- sensitive claims require Fer or a designated clinical reviewer;
-- digital-writing adaptation requires explicit review;
-- crisis-resource maintenance and pilot governance are not complete;
-- the final bilingual Skill and four adapter packages are not approved.
+- clean-clone installation in Claude, Codex, Hermes and Antigravity/Gemini;
+- identical safety routing across all four runtimes;
+- English/Spanish parity review;
+- privacy proof that journal text never reaches project infrastructure;
+- a maintained country-aware crisis-resource policy, if resources are added;
+- Fer-approved final attribution and release wording;
+- community review of the alpha without collecting personal RCP entries.
 
 ## Stewardship
 

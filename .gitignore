@@ -14,3 +14,6 @@ coverage/
 **/journal/
 **/rcp-entries/
 *.rcp.json
+
+# macOS metadata must never enter the public repository.
+.DS_Store

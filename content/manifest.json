@@ -1,0 +1,16 @@
+{
+  "content_version": "0.1.0-alpha",
+  "status": "release_candidate",
+  "locales": ["en", "es"],
+  "method_author_confirmation": "reported_by_eduardo_2026-07-24",
+  "segments": [
+    {"id": "RCP-CORE-EN", "locale": "en", "path": "en/core-flow.md", "source": "Fer-confirmed method adaptation"},
+    {"id": "RCP-CORE-ES", "locale": "es", "path": "es/core-flow.md", "source": "Fer-confirmed method adaptation"}
+  ],
+  "constraints": {
+    "clinical_claims": "bounded_educational_only",
+    "digital_writing": "allowed_adaptation",
+    "video_redistribution": "not_included",
+    "personal_entries": "local_only"
+  }
+}

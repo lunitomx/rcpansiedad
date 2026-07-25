@@ -1,0 +1,4 @@
+interface:
+  display_name: "RCP de la Ansiedad"
+  short_description: "Private bilingual RCP writing guide"
+  default_prompt: "Guide me through a private RCP reflection in my language. Start with the safety gate, never diagnose, and never send or retain my entry."

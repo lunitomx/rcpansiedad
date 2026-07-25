@@ -14,4 +14,4 @@ Every adapter must preserve the same behavior:
 - optional native voice only when verified by that runtime;
 - no default audio or full-transcript retention.
 
-Runtime-specific syntax belongs in adapter packages only after the shared content and safety contract are approved.
+The alpha includes one manifest per target runtime under `adapters/`. These manifests describe the shared contract; the exact installation destination remains host-specific and must be verified during Fer's test pass.
